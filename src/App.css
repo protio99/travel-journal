@@ -4,6 +4,7 @@
   background-color: #fff;
   height: 704px;
   width: 550px;
+  
 }
 
 .navbar{
@@ -76,10 +77,13 @@ margin: 0 12px 0 4px;
   
 }
 .card-list{
+  display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
-  
+  height: 41.4rem;
+  width: 34.4 rem;
   gap: 20px;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 .card-main-text{
